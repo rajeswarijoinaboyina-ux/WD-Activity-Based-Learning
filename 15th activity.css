@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    background: #f0f7f2;
+    color: #315747;
+}
+
+header, footer {
+    background: #477963;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    padding: 10px;
+}
+
+.hero {
+    padding: 20px;
+}
+
+img {
+    width: 90%;
+    max-width: 400px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+
+.cards div {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    img {
+        height: 180px;
+    }
+}
